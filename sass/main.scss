@@ -10,7 +10,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url("../images/hero-background-image.jpg") #2f303a66;
+  background: url("../images/hero-slider-img/hero-img-m.jpg") #2f303a66;
+  background: image-set(
+    "../images/hero-slider-img/hero-img-m.jpg" 1x,
+    "../images/hero-slider-img/hero-img-m@2x.jpg" 2x
+  );
   background-size: cover;
   margin-block-end: 0;
   h1 {
@@ -525,7 +529,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url("../images/hero-background-image.jpg") #2f303a66;
+    background: url("../images/hero-slider-img/hero-img-t.jpg") #2f303a66;
+    background: image-set(
+      "../images/hero-slider-img/hero-img-t.jpg" 1x,
+      "../images/hero-slider-img/hero-img-t@2x.jpg" 2x
+    );
     background-size: cover;
     margin-block-end: 0;
     h1 {
@@ -1051,7 +1059,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url("../images/hero-background-image.jpg") #2f303a66;
+    background: url("../images/hero-slider-img/hero-img-d.jpg") #2f303a66;
+    background: image-set(
+      "../images/hero-slider-img/hero-img-d.jpg" 1x,
+      "../images/hero-slider-img/hero-img-d@2x.jpg" 2x
+    );
     background-size: cover;
     margin-block-end: 0;
     h1 {
